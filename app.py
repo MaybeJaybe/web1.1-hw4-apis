@@ -116,6 +116,7 @@ def historical_results():
 
     result_json = requests.get(url, params=params).json()
 
+
     result_current = result_json['current']
     result_hourly = result_json['hourly']
 
